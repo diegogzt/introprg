@@ -12,7 +12,7 @@ public class DosEnOrdre {
         if (primer > segon) {
             int comodin = segon;
             segon = primer;
-            segon = comodin;
+            primer = comodin;
         }
         /* █████ compara el primer i el segon, i amb una instrucció
                  condicional amb if i else mostra el missatge
