@@ -24,7 +24,7 @@ public class ClassificaCaravana {
     public static void main(String[] args) {
         int preu = Integer.parseInt(args[0]);
         boolean economica = preu < 50000;
-        boolean general = preu < 175000 && !economica;
+        boolean general = preu <= 175000 && !economica;
 
 
         if(economica){
