@@ -27,6 +27,6 @@ public class TresEnOrdre {
         if (segon < menor) {
             menor = segon;
         }
-        System.out.println(primer + ", " +  segon + "," + "i " + tercer);
+        System.out.println(primer + ", " +  segon + ", " + "i " + tercer);
     }
 }
