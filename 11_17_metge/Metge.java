@@ -50,21 +50,12 @@ public class Metge {
                     System.out.println("Pren aspirina");
                 }
             } else {
-                System.out.println("Tos? (sí o no)");
-                resposta = Entrada.readLine();
-                if (resposta.equals("sí")) {
-                    System.out.println("Edat?");
-                    int edat = Integer.parseInt(Entrada.readLine());
-                    if (edat < 12) {
-                        System.out.println("Pren un carmel de mel");
-                    } else {
-                        System.out.println("Pren un carmel d'eucaliptus");
-                    }
-                } else {
-                    System.out.println("Vine a la consulta");
-                }
+                tos = true;
             }
         } else {
+            tos = true;
+        }
+        if(tos){
             System.out.println("Tos? (sí o no)");
             resposta = Entrada.readLine();
             if (resposta.equals("sí")) {
