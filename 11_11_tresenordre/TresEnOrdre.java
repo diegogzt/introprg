@@ -6,27 +6,38 @@
 public class TresEnOrdre {
 
     public static void main(String[] args) {
+        //primer?
         System.out.println("Primer?");
         int primer = Integer.parseInt(Entrada.readLine());
-        int mayor = primer;
-        System.out.println("Segon?");
-        int segon = Integer.parseInt(Entrada.readLine());
-        if (segon > mayor) {
-            mayor = segon;
-        }
-        System.out.println("Tercer?");
+        
+        System.out.println("Segon?");//segon?
+        int segon = Integer.parseInt(Entrada.readLine()); 
+        
+        System.out.println("Tercer?"); //tercer?
         int tercer = Integer.parseInt(Entrada.readLine());
-        if (tercer > mayor) {
-            mayor = tercer;
-        } else if (primer > segon && primer > tercer) {
-            mayor = primer;
-        } else {
-            mayor = tercer;
-        }
+        
+        // Find the smallest number
         int menor = primer;
         if (segon < menor) {
             menor = segon;
         }
-        System.out.println(primer + ", " +  segon + " i " + tercer);
+        if (tercer < menor) {
+            menor = tercer;
+        }
+        
+        // Find the largest number
+        int mayor = primer;
+        if (segon > mayor) {
+            mayor = segon;
+        }
+        if (tercer > mayor) {
+            mayor = tercer;
+        }
+        
+        // Find the middle number
+        int medio = primer + segon + tercer - menor - mayor;
+        
+        System.out.println(menor + ", " + medio + " i " + mayor);
+    
     }
 }
