@@ -20,7 +20,7 @@ public class Semafor {
             System.out.println("corre!");
         }
         else{
-            System.out.println("Ves a l'oculista");
+            System.out.println("ves a l'oculista");
         }
     }
 }
