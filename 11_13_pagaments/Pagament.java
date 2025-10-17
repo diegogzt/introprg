@@ -36,7 +36,7 @@ No sobra ni falta res
         int paga = Integer.parseInt(Entrada.readLine());
         int resultat = paga-preu;
         if(resultat < 0){
-            System.out.println("Falten "+ resultat+"€");
+            System.out.println("Falten "+ resultat + resultat+"€");
         }
         else if(resultat > 0){
             System.out.println("Sobren "+resultat+"€");
