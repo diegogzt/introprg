@@ -11,7 +11,7 @@ public class Semafor {
         boolean verd = color.equals("verd"); 
         boolean groc = color.equals("groc");
         if(vermell){
-            System.out.println("Para");
+            System.out.println("espera");
         }
         else if(verd){
             System.out.println("passa");
