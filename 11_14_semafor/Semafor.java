@@ -14,7 +14,7 @@ public class Semafor {
             System.out.println("Para");
         }
         else if(verd){
-            System.out.println("Avança");
+            System.out.println("passa");
         }
         else if(groc){
             System.out.println("corre!");
