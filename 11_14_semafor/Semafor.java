@@ -17,7 +17,7 @@ public class Semafor {
             System.out.println("Avança");
         }
         else if(groc){
-            System.out.println("Corre!");
+            System.out.println("corre!");
         }
     }
 }
