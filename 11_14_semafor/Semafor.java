@@ -19,5 +19,8 @@ public class Semafor {
         else if(groc){
             System.out.println("corre!");
         }
+        else{
+            System.out.println("Ves a l'oculista");
+        }
     }
 }
