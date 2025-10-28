@@ -1,6 +1,3 @@
-
-import javax.sql.rowset.spi.SyncFactory;
-
 /**Desenvolupa un programa que simuli una transacció amb la quantitat a pagar i la pagada, de manera que el programa indiqui si sobren o falten diners.
 
 El programa demanarà el preu en € i la quantitat de € pagada. A continuació compararà les dues quantitats i escriurà els € que falten per pagar o bé els que se han de tornar.
