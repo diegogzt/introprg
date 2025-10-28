@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
  Desevolupa un progama que demani quants fills tenen els usuaris i respongui segons el nombre de fills sigui:
 */
