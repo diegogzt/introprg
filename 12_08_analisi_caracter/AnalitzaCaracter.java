@@ -6,7 +6,7 @@ public class AnalitzaCaracter {
         if (text.isBlank() || text.length() < 1 || text.isEmpty()) {
             System.out.println("Text buit");
         } else {
-            System.out.println("Posicio?");
+            System.out.println("Posició?");
             int n = Integer.parseInt(Entrada.readLine());
             
             // Ajustar la posición según las reglas del enunciado
