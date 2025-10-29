@@ -24,7 +24,7 @@ public class AnalitzaCaracter {
             } else if (Character.isUpperCase(c)) {
                 System.out.println("'" + c + "'" + " és una lletra majúscula");
             } else {
-                System.out.println("'" + c + "'" + " és altre");
+                System.out.println("'" + c + "'" + " és una altra cosa");
             }
         }
     }
